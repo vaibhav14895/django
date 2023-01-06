@@ -1,0 +1,64 @@
+{%include "header.html"%}
+    <link rel="stylesheet" href="../static/css/blogcss/blog.css">
+    <link rel="stylesheet" href="../static/css/blogcss/media.css">
+    <div class="all"> 
+    <div class="lo">
+    <img src="../static/img/budhaa.png" alt="" >
+    </div>
+
+
+
+
+    <h1 class="header">Blogs</h1><br>
+        <div class="pa">
+            {% for a in sd %}
+         <div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+        <h3>{{a.service_blogt}}<br></h3><p>
+        {{a.service_blogc}}   </p> </div>
+       {% endfor %}
+        <!--<div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+            <h3>Blog 2<br></h3><p>
+        we are here to promote Indian art</p></div>
+        <div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+            <h3>Blog 3<br></h3><p>
+        we are here to promote Indian art</p></div>
+        </div>
+        <br>
+        <div class="pa">
+        <div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+            <h3>Blog 1<br></h3><p>
+            we are here to promote Indian artfaskjfhk sabfjsabdf s f sakjfhkjsbdfhahsgdjf jsgf sb fj</p>
+        </div>
+        <div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+            <h3>Blog 2<br></h3><p>
+            we are here to promote Indian art</p>
+        </div>
+        <div class="box">
+            <div class="imgg"><img src="../static/img/BG1.png" alt="">
+            </div>
+            <h3>Blog 3<br></h3><p>
+            we are here to promote Indian art</p>
+            </div>
+        </div> -->
+        </div>
+    </div>
+
+{%include "footer.html"%}
+
+
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+@media screen and (max-height: 460px) {
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    header {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .nav__links,
+    .cta {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+    }
+}
+@media screen and (max-width:780px) {
+    .buddha{
+        padding-top: 42px;
+        
+    }
+     #logo a {
+        font-size: 1.5rem;
+     }
+    header{
+        padding:3% 9% ;
+        height: 4rem ;
+    }
+    .block{
+       display: none;
+    }
+    #lady{
+        float: none;
+        width: 35%;
+        margin-top:12% ;
+        margin-left:32% ;
+        box-shadow: none;
+    }
+    #heading1{
+        width: 10%;
+        margin: auto;
+        font-size: 1.3rem;
+        padding-bottom: 1%;
+        padding-left: 1rem;
+        width: 100%;
+    }
+    .parra {
+        height: 12%;}
+    #parra1{
+        margin-top: 0%;
+    }
+    #parra1 p{
+        font-size: 1rem;
+    }
+    .block-2{
+        display: none;
+        
+    }
+    .who{
+        padding:0%;
+        height: 33rem;
+    }
+    #Picture2{
+        float: none;
+        height:fit-content;
+        box-shadow: none;
+        width: 40%;
+        margin-top:12%;
+        margin-left: 27%;
+        margin-right: 0%;
+    }
+    #heading2{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+
+    }
+    #parra2{
+        padding-left: 1rem;
+        font-size: 1rem;
+        padding-right: 9%;
+        
+    }
+    #parra3{
+        margin:auto;
+        max-width: 100%;
+    }
+    #parra3 p{
+        font-size: 3.7vw  ;
+        width:69%;
+        margin: auto;
+        margin-top: 3vw;
+    }
+    .fa-quote-left:before{
+        display: none;
+    }
+    #BG1{
+        height: fit-content;
+    }
+    .blog{
+        height: 24rem;
+    }
+    #BG2{
+        height:24rem;
+    }
+    .tile{
+        height:18%;
+    }
+    #tile1{
+        margin-top:4vh;
+    }
+    #tile2{
+        margin-top: 17vh;
+    }
+    #tile3{
+        margin-top: 30vh;
+    }
+    .blogheading{
+        margin-top:6.5vw;
+        font-size:3.5vw;
+        margin-left:33%;
+        padding-bottom: 1px;
+    }
+    .blogparra{
+        font-size: 2.3vw;
+        margin-left:33%;
+    }
+    .blogimage{
+        width:31%;  
+    }
+    .cred1{
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
+    }
+    .contact{
+        height:440px;
+    }
+    #contact{
+        height: 70%;
+        border-radius: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact br{
+        display: none;
+    } 
+    #toknow{    
+        font-size: 6.5vw;
+        padding-top: 5%;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        margin-left: 0vw;
+    }
+    input {
+        height: 11%;
+        width: 80%;
+    }
+    .cin {
+        margin-left: 0%;;
+        margin-top: 6%;
+    }
+    #submit{
+        float: none;
+        height:10%;
+        width: 25%;
+        margin-top: 6vw;
+        margin-right: 0vw;
+    }
+    #heading{
+        font-size: 7vw;
+    }
+    .contactus{
+        height: 43vw;
+    }
+    .mail{
+        margin-top: 0%;
+        font-size:4vw;
+    }
+    .pimg{
+        height: 6vw;
+        width:6vw;
+    }
+    .copycl{
+        font-size: 2vw;
+        float:left;
+        margin-top: 2vw;
+    }
+    .priv{
+        font-size:2vw;
+        margin-top: 2vw;
+    }
+}

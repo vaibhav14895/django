@@ -1,0 +1,51 @@
+.all{
+    justify-content: center;
+    text-align: center;
+}
+.lo{
+    color: aliceblue;
+        opacity: 0.6;
+        height: auto;
+        width: 100%;
+}
+
+.pa{
+    position:relative;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color:#dfc0788c;
+    border: .1rem solid;
+    margin: auto;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    height: 350px;
+    width: auto;
+    max-width: 370px;
+    border-color:black;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 6px black;
+}
+.header {
+    color: aliceblue;
+    text-shadow: 3px 3px 6px black;
+}
+.pa .box img{
+    height: 100px;
+    width: 100%;
+}
+.box:hover{
+transform: translate(0,-15px);
+transition: 0.5s;
+}
+
+.box h3{
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
