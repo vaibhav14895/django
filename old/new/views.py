@@ -20,26 +20,26 @@ def blog(request):
     blogdata = service.objects.all()
     data={
         'sd':blogdata
-    }
-    return render(request,"blog.html",data)
+     }
+    return render(request,"blog.html",blogdata)
 
 def about(request):
     return render(request, "about.html")
 
 def contact(request):
+    try:
+        if request.method == "POST":
+            n1 = request.POST.get('NAME')
+            n2 = request.POST.get('ROLL')
+            n3 = request.POST.get('SEC')
+            n4 = request.POST.get('CGPA')
+    except:
+        pass
     return render(request,"contact.html") 
         
 
 def userform(request):
-        try:
-         if request.method=="post":
-            n1=request.POST.get('NAME')
-            n2=request.POST.get('GMAIL')
-            n3=request.POST.get('NUMBER')
-            n4=request.POST.get('MESSAGE')
-            print(n1+n2+n3+n4)
-        except:
-            pass
+        
         return render(request,"index.html")
 
    

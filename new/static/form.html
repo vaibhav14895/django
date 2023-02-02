@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="black">
+        <tr>
+        <th>Name </th>
+        <th>roll no</th>
+        <th>section </th>
+        <th>CGPA</th>
+        </tr>
+        {% for a in data %}
+        <tr>
+        <td> {{ a.s_name }} </td>
+        <td> {{ a.s_roll }} </td>
+        <td> {{ a.s_sec }} </td>
+        <td> {{ a.s_CGPA }} </td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</body>
+</html>

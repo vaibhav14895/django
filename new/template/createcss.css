@@ -1,0 +1,39 @@
+html {
+    overflow: hidden;
+    padding: auto;
+    margin: 0px;
+}
+
+body {
+    overflow: hidden;
+    margin: 0%;
+}
+
+.forms {
+    display: flex;
+    height: 200px;
+    width: 600px;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgb(255, 247, 221);
+    padding: 20px;
+    align-items: center;
+}
+
+.forms input {
+    padding: 6px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.forms button {
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.forms button:hover {
+    transition: ease-in-out;
+    transition: .5s;
+    translate: -1px -1px;
+}

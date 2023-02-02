@@ -15,11 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app import views
-
+from new import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home),
-    path('form/',views.form),
-    path('create/',views.create),
+    path('index', views.index, name='index'),
+    # dynamic urls<datatype-int ,string,slug (jfdkf-fhkh) >,and we can use it empty if we dont know the type
+    path('index/<int:dynamic>', views.dynamic),
+
+
+    # implimenting sending files
+    path('', views.home),
+    path('about/', views.about, name='about'),
+    path('contact/', views.contact, name='contact'),
+    path('blog/', views.blog, name='blog'),
+    path('calc/',views.calc,name='calc')
 ]
